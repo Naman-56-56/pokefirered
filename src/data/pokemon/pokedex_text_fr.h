@@ -6,9 +6,9 @@ const u8 gDummyPokedexText[] = _(
 const u8 gDummyPokedexTextUnused[] = _("");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "There is a plant seed on its back right\n"
-    "from the day this POKéMON is born.\n"
-    "The seed slowly grows larger.");
+    "Thryvine is found near forest borders and\n"
+    "ancient ruins. Its growth halts as if waiting\n"
+    "for passage beyond.");
 
 const u8 gBulbasaurPokedexTextUnused[] = _("");
 
@@ -27,9 +27,9 @@ const u8 gVenusaurPokedexText[] = _(
 const u8 gVenusaurPokedexTextUnused[] = _("");
 
 const u8 gCharmanderPokedexText[] = _(
-    "From the time it is born, a flame burns\n"
-    "at the tip of its tail. Its life would end\n"
-    "if the flame were to go out.");
+    "Flarlet delights in deception.\n"
+    "Its flame reshapes what others\n"
+    "believe to be real.");
 
 const u8 gCharmanderPokedexTextUnused[] = _("");
 
@@ -48,9 +48,9 @@ const u8 gCharizardPokedexText[] = _(
 const u8 gCharizardPokedexTextUnused[] = _("");
 
 const u8 gSquirtlePokedexText[] = _(
-    "When it retracts its long neck into its\n"
-    "shell, it squirts out water with vigorous\n"
-    "force.");
+    "Rivon's thoughts often contradict its\n"
+    "actions. Witnesses report it hesitating at\n"
+    "critical moments. Some say reality briefly misaligns around it.");
 
 const u8 gSquirtlePokedexTextUnused[] = _("");
 

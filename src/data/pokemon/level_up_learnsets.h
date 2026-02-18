@@ -52,7 +52,7 @@ static const u16 sVenusaurLevelUpLearnset[] = {
 };
 
 static const u16 sCharmanderLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE(1, MOVE_DRAGON_BREATH),
     LEVEL_UP_MOVE(1, MOVE_GROWL),
     LEVEL_UP_MOVE(7, MOVE_EMBER),
     LEVEL_UP_MOVE(13, MOVE_METAL_CLAW),

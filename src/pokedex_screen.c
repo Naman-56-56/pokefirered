@@ -2669,7 +2669,7 @@ void DexScreen_DexPageZoomEffectFrame(u8 bg, u8 scale)
 void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 {
     u8 * categoryName;
-    u8 index, categoryStr[12];
+    u8 index, categoryStr[13];
 
     species = SpeciesToNationalPokedexNum(species);
 
@@ -2678,9 +2678,9 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, FALSE))
     {
 #if REVISION == 0
-        while ((categoryName[index] != CHAR_SPACE) && (index < 11))
+        while ((categoryName[index] != CHAR_SPACE) && (index < 12))
 #else
-        while ((categoryName[index] != EOS) && (index < 11))
+        while ((categoryName[index] != EOS) && (index < 12))
 #endif
         {
             categoryStr[index] = categoryName[index];
@@ -2689,7 +2689,7 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     }
     else
     {
-        while (index < 11)
+        while (index < 12)
         {
             categoryStr[index] = CHAR_QUESTION_MARK;
             index++;
